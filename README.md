@@ -3,35 +3,11 @@
 This project fetches protein interaction data from STRING for a small list of breast-cancer genes,
 builds a network using NetworkX, and visualizes it.
 
-Files:
-- ppi_network.ipynb — Colab/Jupyter notebook
-- ppi_data.tsv — raw STRING output
-- ppi_network.png — plotted network image
-- requirements.txt — packages needed
-
 How to run:
-1. Install packages: pip install pandas networkx matplotlib requests
-2. Open the notebook and run all cells.
-
-Author: Eiman Meer
-
-
-
-🚀 How to Run on Google Colab
-Open Google Colab.
-
 Create a new notebook.
-
 Paste the code from ppi_network_analysis.ipynb.
-
 Modify the genes list if desired.
-
-Run all cells to:
-
-Query STRING API
-
 Build the PPI network
-
 Visualize and save the network graph
 
 📂 Files in This Repository
@@ -51,9 +27,6 @@ Nodes represent proteins.
 Edges represent known or predicted protein-protein interactions.
 
 Thicker edges = higher confidence score from STRING.
-
-Example:
-(Add screenshot of ppi_network.png here when available)
 
 📜 Data Source
 STRING Database API
